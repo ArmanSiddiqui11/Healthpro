@@ -61,8 +61,8 @@ navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigation
 
             else if(item.getItemId()==R.id.policy){
                 Toast.makeText(HomeActivity.this, "Privacy Policy Selected", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(HomeActivity.this,privacyActivity.class);
-                startActivity(intent);
+//                Intent intent=new Intent(HomeActivity.this,privacyActivity.class);
+//                startActivity(intent);
             }
 
             else if(item.getItemId()==R.id.login){
